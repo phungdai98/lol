@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>dang bang</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body
+		{
+			font-family: Arial,"Time New Roman",serif;
+			font-size: 1em;
+			background-color: black;
+			background-image: url(messi.jpg);
+		}
+		p {
+			font-family: "Time New Roman",serif;
+			line-height: 2em;
+			border-radius: 25px;
+			border: 4px solid RED;
+			margin-top: 1em;
+			margin-bottom:1em;
+			padding: 0.5em;
+			background-color: yellow;
+		}
+		table {
+			font-family: Tahoma,"Time New Roman",serif;
+			font-variant: small-caps;
+		    position: absolute;
+		    right: 0px;
+		    top: 220px;
+		}
+		table td {
+			font-style: italic;
+		}
+		#ds {
+			background-color: GREEN;
+		}
+		#l1 {
+			position: relative;
+			left: 550px;
+			right: 700px;
+			width: 150px;
+			height: 40px;
+			color: MAGENTA;
+			line-height: 40px;
+			text-align: center;
+		}
+		#de {
+			position: absolute;
+			width: 1300px;
+			height: 40px;
+			top: 600px;
+			left: 20px;
+		}
+	
+		#l2 {
+			position: absolute;
+			top: 150px;
+			right: 100px;
+			border: 4px solid BLUE;
+			border-radius: 10px;
+			background: yellow;
+		}
+		ol,ul {
+			list-style: none;
+		}
+		nav {
+			position: absolute;
+			top: 130px;
+			left: 0px;
+			/*background-color: blue;
+			width: 960px;
+			border: 1px solid #000;
+			margin: 0 auto;*/
+		}
+		#l4 {
+			background-color: green;
+			height: 35px;
+		}
+		#l4 li {
+			float: left;
+			width: 120px;
+			height: 35px;
+			background-color: ;
+			text-align: center;
+			border-left: 1px solid yellow;
+			border-right: 1px solid yellow;
+			line-height: 35px;
+		}
+		#l5 {
+			position: absolute;
+			top: 180px;
+			left: 10px;
+			color: red;
+		}
+		#l6 {
+			border: 2px solid BROWN;
+			position: absolute;
+			top: 200px;
+			left: 200px;
+			color: white;
+			background: brown;
+		}
+		#l7 {
+			position: absolute;
+			top: 410px;
+			left: 0px;
+		}
+		#l8 {
+			position: absolute;
+			top: 480px;
+			left: 200px;
+		}
+		/*#l9 
+		{
+			border: 10px solid transparent;
+			padding: 15px;
+			border-image: url(border.png) 33 round;
+		}*/
+	</style>
+</head>
+<body>
+	<!-- <audio controls="controls">
+		<source src="nhodequen.mp3" allow="autoplay">
+	</audio> -->
+	<div id="l8">
+	<audio autoplay controls="">
+		<source src="nhodequen.mp3">
+	</audio>
+	</div>
+	<div id="l7">
+		<video width="200px" height="200px" controls autoplay >
+			<source src="video.mp4" type="video/mp4">
+		</video>
+	</div>
+	<nav id="l3">
+	<div id="l4">
+		<ul>
+			<li><a href="#">Chỉ số chung</a></li>
+			<li><a href="#">Giải đấu</a></li>
+			<li><a href="#">Quốc Gia</a></li>
+			<li><a href="#">Mùa</a></li>
+		</ul>
+	</div>
+	</nav>
+	<div id="l5">
+		<ul>
+			<dt>Laliga</dt>
+			<dd style="color: blue">Hang 1</dd>
+			<dd style="color: blue">Hang 2</dd>
+			<dd style="color: blue">Laliga</dd>
+			<dt>English</dt>
+		    <dd style="color: blue">Perplish</dd>
+			<dd style="color: blue">Hang 2</dd>
+			<dd style="color: blue">Nghiệp dư</dd>
+			<dt>Bulisliga</dt>
+			<dd style="color: blue">Hang 1</dd>
+			<dd style="color: blue">Hang 2</dd>
+			<dd style="color: blue">Budesliga</dd>
+		</ul>
+	</div>
+	<div id="l6">
+		<dt>Mùa</dt>
+		<dd style="color: green">09</dd>
+		<dd style="color: green">10</dd>
+		<dd style="color: green">11</dd>
+		<dd style="color: green">16</dd>
+		<dd style="color: green">17</dd>
+		<dd style="color: green">WB</dd>
+		<button>Choose</button><button>cancel</button>
+	</div>
+	<div>
+		<h1 id="l2" style="color: RED;">Lionel Messi</h1>
+		<p id="l1"><strong>Chỉ số fifa 4</strong></p>
+	 <table border="1">
+		<tr id="ds">
+			<th colspan="2">Chỉ số chung
+				<p style="color: BLUE;">89</p>
+			</th>
+			<th rowspan="4"><img src="messi.jpg" width="300" height="350" /></th>
+		</tr>
+		<tr>
+			<td style="color: RED">sức mạnh</td>
+			<td style="color: GREEN;">75</td>
+		</tr>
+		<tr>
+			<td style="color: RED">Thể Lực</td>
+			<td style="color: GREEN;">85</td>
+		</tr>
+		<tr>
+			<td style="color: RED">tốc độ</td>
+			<td style="color: GREEN;">90</td>
+		</tr>
+	 </table>
+	</div>
+	<div id="l9"></div>
+	<p id="de" style="text-align: center">Would Cup 2018 -RUSSIA</p>
+</body>
+</html>
